@@ -13,6 +13,9 @@ Usage: Provide the tool a domain or subdomain and it will parse the html to look
 When using -f, ensure that there is one domain per line:
 
 Ex:
+
 1> hello.world
+
 2> world.hello.world
+
 3> big.hello.world/europe
