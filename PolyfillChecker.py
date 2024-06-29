@@ -4,7 +4,7 @@ import urllib.request
 #Request user to supply url that we can parse. 
 #Take their input and put it in the "url" variable.
 #initialize url2 variable
-print("Please entur a full URL to download and parse")
+print("Please enter a full URL to download and parse")
 url = input("URL: ")
 url = url.lower()
 url2 = url
@@ -31,3 +31,4 @@ else:
     Y = url + "_output.txt"
     os.remove("html.txt")
     os.remove("html.txt", Y)
+    #Why is this not remove output and magically creating an output file? 
