@@ -8,9 +8,9 @@ Fix: Replace all instances of cdn[.]polyfill[.]io with polyfill-fastly.io (Known
 
 Ref:  https://polykill.io/
 
-Usage: Provide the tool a domain or subdomain and it will parse the html to look for cdn[.]polyfill[.]io. If multiple domains or subdomains are of interest, you can use the -f option and it will utilize a file filled with domains/subdomains instead of a single domain.
+Usage: Provide the tool a domain or subdomain and it will parse the html to look for cdn[.]polyfill[.]io. 
 
-When using -f, ensure that there is one domain per line:
+(Coming soone)If multiple domains or subdomains are of interest, you can use the -f option and it will utilize a file filled with domains/subdomains instead of a single domain. When using -f, ensure that there is one domain per line:
 
 Ex:
 
@@ -19,3 +19,7 @@ Ex:
 2> world.hello.world
 
 3> big.hello.world/europe
+
+4> https://hello.world
+
+5> http://hello.word/eu
