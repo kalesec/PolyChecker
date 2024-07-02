@@ -20,7 +20,7 @@ url = url.lower()
 url2 = url
 
 #Check to see if provided url is in proper sytnax.
-if "https" and "http" in url:
+if "https://" in url or "http://" in url:
     url2 = url
 else:
     url2 = "https://" + url
