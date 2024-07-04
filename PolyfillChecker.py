@@ -13,7 +13,7 @@ if path.is_file():
 
 #Request user to supply url that we can parse. 
 #Take their input and put it in the "url" variable.
-#initialize url2 variable
+#Initialize url2 variable
 print("Please enter a full URL to download and parse")
 url = input("URL: ")
 url = url.lower()
@@ -30,7 +30,6 @@ print("URL Entered: " + url2)
 print("Downloading HTML...")
 
 #Take the user's URL, download the html and save it to html.txt.
-#Could probably do without downloading 
 urllib.request.urlretrieve(url2, "html.txt")
 
 #Parse html file and search each line for cdn.polyfill.io
